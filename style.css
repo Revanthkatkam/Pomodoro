@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s ease;
+}
+
+.work-session {
+    background-color: #d95550;
+    color: #fff;
+}
+
+.break-session {
+    background-color: #4c9195;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.timer-display {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.controls button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.controls button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.session-counter {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="work-session">
+    <div class="container">
+        <h1 id="session-title">Work</h1>
+        <div class="timer-display" id="timer-display">25:00</div>
+        <div class="controls">
+            <button id="start-btn">Start</button>
+            <button id="pause-btn" style="display: none;">Pause</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+        <div class="session-counter">
+            <p>Completed Pomodoros: <span id="pomodoro-count">0</span></p>
+        </div>
+    </div>
+    <audio id="alarm-sound" src="https://www.soundjay.com/buttons/sounds/button-16.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
